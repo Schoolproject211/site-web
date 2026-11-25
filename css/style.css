@@ -1,0 +1,56 @@
+* {
+  position: relative;
+}
+
+header {
+  background-color: sandybrown;
+  color: black;
+  font-family: Helvetica, sans-serif, Arial;
+  position: sticky;
+  display: flex;
+  height: 6em;
+}
+
+.Titles {
+  vertical-align: middle;
+}
+
+nav {
+  display: inline-flex;
+  position: absolute;
+  right: 0.4em;
+  bottom: 0;
+  line-height: 3em;
+  gap: 1em;
+  padding: 1.5em;
+
+}
+
+a {
+  text-align: center;
+  background-color: gray;
+  color: blue;
+  border-radius: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:focus {
+  background-color: darkgreen;
+}
+
+a:active {
+  background-color: orangered;
+}
+
+a:hover {
+  background-color: blanchedalmond;
+}
+
+p {
+  line-height: 30em;
+}
